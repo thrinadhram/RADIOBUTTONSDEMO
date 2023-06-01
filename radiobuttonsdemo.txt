@@ -45,9 +45,9 @@ public class Class1 {
 				String classname = driver.findElement(By.xpath("(//*[@class='specialFareNew']//li[6]//p)[1]"))
 						.getAttribute("class");
 				if (classname.equals("disabled")) {
-					System.out.println(name+"  Button is in disable mode");
+					System.out.println("When clicking on "+name+" button the Double Seat Fares button is in disable mode");
 				} else {
-					System.out.println(name+" Button is enale mode");
+					System.out.println("When clicking on "+name+" button the Double Seat Fares button is in Enable mode");
 				}
 			}
 		}
